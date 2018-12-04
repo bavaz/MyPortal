@@ -1,4 +1,15 @@
 .column{
   float : left;
-  width : 33.33%
+  width : 32.87%;
+  height : 350px;
+  border-left-style : dotted;
  }
+
+#weather{
+  border-left-style : none;
+}
+
+.row{
+  height : 350px;
+  border-style : solid;
+}
