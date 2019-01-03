@@ -85,7 +85,8 @@
                var css_file=document.createElement("link"); 
                css_file.setAttribute("rel","stylesheet"); 
                css_file.setAttribute("type","text/css"); 
-               css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-160x275.css?v=0.0.1'); 
+               css_file.setAttribute("href",'Weather.css'); 
+              // css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-160x275.css?v=0.0.1'); 
               document.getElementsByTagName("head")[0].appendChild(css_file); 
               function setWidgetData(data) { 
                   if(typeof(data) != 'undefined' && data.results.length > 0) { 
@@ -104,6 +105,11 @@
               } 
           </script> 
           <script type="text/javascript" charset="UTF-8" src="https://widgets.booked.net/weather/info?action=get_weather_info&ver=6&cityID=2003&type=4&scode=2&ltid=3457&domid=w209&anc_id=22164&cmetric=1&wlangID=1&color=137AE9&wwidth=160&header_color=ffffff&text_color=333333&link_color=08488D&border_form=1&footer_color=ffffff&footer_text_color=333333&transparent=0">
+          </script>
+          <script type="text/javascript">
+          var objBigOne = document.getElementById('m-booked-bl-simple-week-vertical-47013');
+          objBigOne.setAttribute("width", '100%');
+          objBigOne.setAttribute("height", '100%');
           </script>
     </div>
    </div>
