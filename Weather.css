@@ -7,10 +7,10 @@
 	background-image: -webkit-linear-gradient( 90deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.6) 100%) !important;
 	background-image: -ms-linear-gradient( 90deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.6) 100%) !important;
 	display: block !important;
-	margin: 0 auto !important;
-	width: 160px;
-	max-width: 350px !important;
-	height: 265px !important;
+	/*margin: 0 auto !important;*/
+	/*width: 90%;
+	max-width: 100% !important;*/
+	height: 350px !important;
 	color: #fff !important;
 	font: normal 11px/11px verdana, sans-serif !important;
 	text-decoration: none !important;
@@ -20,7 +20,7 @@
 }
 
 .booked-wzs-top-160-275 {
-	position: absolute !important;
+	position: relative !important;
 	left: 0 !important;
 	width: 100% !important;
 	opacity: 0 !important;
